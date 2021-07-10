@@ -12,7 +12,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', type:'text/css', href: '//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons' }
     ]
   },
 
@@ -35,7 +36,7 @@ export default {
   modules: [
     ['nuxt-vue-material', {
       theme: 'default-dark',
-      components: ['MdTabs', 'MdButton', 'MdBottomBar']
+      components: ['MdTabs', 'MdButton', 'MdBottomBar', 'MdApp', 'MdLayout']
     }]
   ],
   // Build Configuration: https://go.nuxtjs.dev/config-build
